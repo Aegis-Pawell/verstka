@@ -24,15 +24,21 @@ body {
 .menu__burger img {
 	padding-right: 2em;
 	width: 80px;
+	cursor: pointer;
 }
 
 .logo__txt {
 	width: 10%;
 	font-weight: bold;
+	letter-spacing: 2px;
 }
 
 .logo img {
 	width: 90px;
+}
+
+.address {
+	letter-spacing: 2px;
 }
 
 .phone {
@@ -54,6 +60,7 @@ body {
 	width: 160px;
 	margin-left: 5em;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .wrap {
@@ -124,6 +131,7 @@ label {
 	border: none;
 	width: 250px;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .form__bottom {
@@ -134,4 +142,14 @@ label {
 .txtform__top, .txtform__top2 {
 	font-size: 1.1em;
 	letter-spacing: 2px;
+}
+
+.avatar {
+	position: absolute;
+	top: 12vh;
+	left: 41vw;
+}
+
+.avatar img {
+	width: 650px;
 }
